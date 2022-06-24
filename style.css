@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color:rgb(37, 37, 37);
+    color: white;
+}
+
+main{
+    margin-top: 30px;
+}
+
+header{
+    box-shadow: 9px 8px 100px 2px rgb(19, 19, 19);
+}
+
+#logo{
+    margin-top: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#menu-h{
+    position:static;
+    list-style-type: none;
+    padding: 0;
+    background-color: #3d3d3d;
+    text-align: right;
+
+    
+}
+
+#menu-h li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+#menu-h li a:hover{
+    background-color: rgb(80, 80, 80)
+}
+
+#go li{
+    background-color: rgb(37, 124, 223);
+    padding: 20px;
+}
+
+#go li a{
+    color: white;
+}
+
+#go li a:hover{
+    background-color: rgb(37, 124, 223);
+    padding: 20px;
+}
+
+#titulo1{
+    padding: 20px;
+    font-size: 40px;
+}
+
+p{
+    color: gray;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: -500px;
+    position: absolute;
+}
+
+#principal{
+    margin-left: 1200px;
+    border-radius: 220px;
+    position: relative;
+    box-shadow: 9px 8px 10px 12px rgb(19, 19, 19);
+}
+
+main h2{
+    font-size: 30px;
+}
+
+#fixacao{
+    position: absolute;
+    margin-top: -380px;
+}
+
+#pesquisando{
+    background-color: rgb(37, 37, 37);
+    border-color: white;
+    margin-top: -30px;
+    margin-left: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 0;
+    text-align: left;
+    color: white;
+
+}
+
+#pesquisa{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(37, 124, 223);
+}
+
+main h2{
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
