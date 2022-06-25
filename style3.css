@@ -144,6 +144,11 @@ p{
     box-shadow: 9px 8px 10px 12px rgb(0, 22, 13);
 }
 
+#principal:hover{
+    border-top: 1px solid rgb(172, 171, 171);
+    border-right: 1px solid rgb(172, 171, 171);
+}
+
 #buy{
     width: 150px;
     height: 40px;
