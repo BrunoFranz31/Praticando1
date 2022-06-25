@@ -87,7 +87,7 @@ header{
     width:1px;
     height:30px;
     background-color: white;
-    margin-left: 965px;
+    margin-left: 1052px;
     margin-top: -35px;
     animation: animate 0.5s linear infinite;
 }
@@ -158,7 +158,7 @@ header{
 
 .usuarios{
    display: flex;
-   margin-left: 700px;
+   margin-left: 769px;
    margin-top: 30px;
   
 }
