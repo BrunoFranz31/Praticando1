@@ -1,0 +1,16 @@
+p{
+    font-family: 'Special Elite', monospace;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#piscando{
+    position: absolute;
+    width:1px;
+    height:30px;
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: 75px;
+    animation: animate 0.5s linear infinite;
+}
+

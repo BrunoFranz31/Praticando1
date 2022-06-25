@@ -4,13 +4,10 @@
     color: #fff;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 body{
-    background: rgb(66,79,110);
-    background: linear-gradient(90deg, rgba(57,68,94,1) 15%, rgba(38,47,68,1) 31%, rgba(12,18,32,1) 100%);
+    background: rgb(11,120,76);
+    background: linear-gradient(90deg, rgb(4, 82, 51) 15%, rgb(4, 78, 49) 24%, rgba(3,87,53,1) 45%, rgba(2,65,40,1) 71%);
     color: white;
 }
 
@@ -19,7 +16,7 @@ main{
 }
 
 header{
-    box-shadow: 9px 8px 100px 2px rgb(25, 48, 78);
+    box-shadow: 9px 8px 100px 2px rgb(0, 36, 21);
 }
 
 #logo{
@@ -34,7 +31,7 @@ header{
 
 
 #last{
-    color: rgb(92, 125, 209);
+    color: rgb(0, 163, 98);
     box-shadow: 10px 10px 100px 5px rgb(21, 30, 68);
 }
 
@@ -70,7 +67,7 @@ header{
 }
 
 #go li{
-    background-color: rgb(92, 125, 209);
+    background-color: rgb(0, 163, 98);
     padding: 20px;
 }
 
@@ -79,7 +76,7 @@ header{
 }
 
 #go li a:hover{
-    background-color: rgb(92, 125, 209);
+    background-color: rgb(0, 163, 98);
     padding: 20px;
 }
 
@@ -91,7 +88,7 @@ header{
 }
 
 #robots{
-    color: rgb(92, 125, 209);
+    color: rgb(0, 163, 98);
     animation:animate 
     5.9s linear infinite;
 }
@@ -127,7 +124,7 @@ p{
 #linha-vertical{
     height: 2px;
     width: 320px;
-    background-color: rgb(43, 42, 61);
+    background-color: rgb(1, 46, 28);
     margin-top: -385px;
     position: absolute;
     margin-left: 250px;
@@ -135,7 +132,7 @@ p{
 }
 
 #linha-vertical:hover{
-    background: linear-gradient(90deg, rgb(78, 89, 117) 15%, rgb(44, 60, 97) 31%, rgb(27, 52, 110)100%);
+    background: linear-gradient(90deg, rgb(0, 73, 61) 15%, rgb(1, 119, 84) 31%, rgb(1, 83, 52)100%);
 }
 
 
@@ -144,13 +141,13 @@ p{
     margin-top: -100;
     border-radius: 220px;
     position: relative;
-    box-shadow: 9px 8px 10px 12px rgb(1, 6, 26);
+    box-shadow: 9px 8px 10px 12px rgb(0, 22, 13);
 }
 
 #buy{
     width: 150px;
     height: 40px;
-    background-color: rgb(92, 125, 209);
+    background-color: rgb(0, 163, 98);
     color: white;
     border-radius: 3px;
     border-style: inherit;
@@ -158,9 +155,9 @@ p{
     position: absolute;
     margin-top: -350px;
     margin-left: 320px;
-    box-shadow: 1px 1px 100px 1px rgb(21, 30, 68);
+    box-shadow: 1px 1px 100px 1px rgb(0, 110, 59);
 }
 
 #buy:hover{
-    background-color: rgb(39, 54, 88);
+    background-color: rgb(0, 82, 49);
 }

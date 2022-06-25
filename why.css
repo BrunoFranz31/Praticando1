@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+body{
+    background: rgb(70,65,71);
+    background: linear-gradient(90deg, rgb(2, 2, 2) 17%, rgb(25, 24, 26) 46%, rgb(18, 18, 19) 68%);
+}
+
+header{
+    box-shadow: 9px 8px 100px 2px rgb(37, 37, 37);
+}
+
+#logo{
+    margin-top: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Special Elite', monospace;
+}
+
+
+
+#last{
+    color: rgb(145, 145, 145);
+    box-shadow: 10px 10px 100px 5px rgb(21, 30, 68);
+}
+
+#last:hover{
+    color: rgb(26, 26, 26);
+}
+
+#menu-h{
+    position:static;
+    list-style-type: none;
+    padding: 0;
+    background-color: #292828;
+    text-align: right;
+
+    
+}
+
+#menu-h li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+#menu-h li a:hover{
+    background-color: rgb(80, 80, 80)
+}
+
+#go li{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+#go li a{
+    color: white;
+}
+
+#go li a:hover{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#piscando{
+    position: absolute;
+    width:1px;
+    height:30px;
+    background-color: white;
+    margin-left: 983px;
+    margin-top: -31px;
+    animation: animate 0.5s linear infinite;
+    font-family: 'Special Elite', monospace;
+}
+
+
+
+@keyframes animate {
+
+
+    2% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

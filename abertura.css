@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+body{
+    background: rgb(70,65,71);
+    background: linear-gradient(90deg, rgb(2, 2, 2) 17%, rgb(25, 24, 26) 46%, rgb(18, 18, 19) 68%);
+}
+
+header{
+    box-shadow: 9px 8px 100px 2px rgb(37, 37, 37);
+}
+
+#logo{
+    margin-top: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Special Elite', monospace;
+}
+
+
+
+#last{
+    color: rgb(145, 145, 145);
+    box-shadow: 10px 10px 100px 5px rgb(21, 30, 68);
+}
+
+#last:hover{
+    color: rgb(26, 26, 26);
+}
+
+#menu-h{
+    position:static;
+    list-style-type: none;
+    padding: 0;
+    background-color: #292828;
+    text-align: right;
+
+    
+}
+
+#menu-h li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+#menu-h li a:hover{
+    background-color: rgb(80, 80, 80)
+}
+
+#go li{
+    background-color: rgb(194, 54, 54);
+    padding: 20px;
+}
+
+#go li a{
+    color: white;
+}
+
+#go li a:hover{
+    background-color: rgb(194, 54, 54);
+    padding: 20px;
+}
+
+#animei{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 110px;
+    font-family: 'Special Elite', monospace;
+}
+
+#piscando{
+    position: absolute;
+    width:1px;
+    height:30px;
+    background-color: white;
+    margin-left: 965px;
+    margin-top: -35px;
+    animation: animate 0.5s linear infinite;
+}
+
+
+
+@keyframes animate {
+
+
+    2% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+#circulo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(57,68,94,1) 15%, rgba(38,47,68,1) 31%, rgba(12,18,32,1) 100%);
+    text-align: center;
+    }
+
+#circulo2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(49, 3, 3) 15%, rgba(70,8,8,1) 39%, rgba(62,0,0,1) 70%);
+    text-align: center;
+    }
+
+#circulo3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(4, 82, 51) 15%, rgb(4, 78, 49) 24%, rgba(3,87,53,1) 45%, rgba(2,65,40,1) 71%);
+    text-align: center;
+    }
+
+#circulo4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(61,10,83,1) 17%, rgba(59,8,80,1) 24%, rgba(44,5,60,1) 34%, rgba(46,1,64,1) 53%, rgba(46,9,61,1) 77%);
+    text-align: center;
+    }
+
+.usuarios{
+   display: flex;
+   margin-left: 700px;
+   margin-top: 30px;
+  
+}
+
+#piada{
+    font-family: 'Special Elite', monospace;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 120px;
+}
